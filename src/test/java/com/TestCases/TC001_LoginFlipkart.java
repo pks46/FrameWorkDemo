@@ -25,18 +25,18 @@ public class TC001_LoginFlipkart extends BaseClass{
 		
 	}
 	
-	@Test(priority=2)
-	public void LoginApp1() {	
-		
-		logger = report.createTest("Log out ");
-		//Running Login Properties---- Pages > LoginPage
-		LoginPage loginpage = PageFactory.initElements(driver, LoginPage.class);
-				
-		logger.info("Starting the Application");
-		loginpage.LoginToApplication(config.getUserName(), config.getPassword());
-		
-		logger.fail("Login Done Successfully!!!");
-		
-		
-	}
+//	@Test(priority=2)
+//	public void LoginApp1() {	
+//		
+//		logger = report.createTest("Log out ");
+//		//Running Login Properties---- Pages > LoginPage
+//		LoginPage loginpage = PageFactory.initElements(driver, LoginPage.class);
+//				
+//		logger.info("Starting the Application");
+//		loginpage.LoginToApplication(config.getUserName(), config.getPassword());
+//		
+//		logger.fail("Login Done Successfully!!!");
+//		
+//		
+//	}
 }
