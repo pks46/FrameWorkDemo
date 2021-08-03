@@ -2,11 +2,15 @@ package com.Utilities;
 
 import java.util.concurrent.TimeUnit;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.firefox.GeckoDriverInfo;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
+import javafx.scene.control.Alert;
 
 public class BrowserLibrary {
 	
@@ -20,10 +24,11 @@ public class BrowserLibrary {
 			options.addArguments("--disable-notifications");
 			WebDriverManager.chromedriver().setup();			
 			driver = new ChromeDriver(options);
+			
 		}
 		
 		else if(browserName.equals("firefox")) {
-			
+			driver = new FirefoxDriver();
 		}
 		
 		driver.manage().timeouts().pageLoadTimeout(30, TimeUnit.SECONDS);

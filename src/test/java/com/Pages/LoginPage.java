@@ -31,6 +31,5 @@ public class LoginPage {
 		LoginButton.click();
 		UserName.sendKeys(Useremail);
 		UserPassword.sendKeys(Userpassword);
-		
 	}
 }

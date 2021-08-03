@@ -25,7 +25,7 @@ public class Helper {
 			
 		} 
 		catch (Exception e) {
-			System.out.println("Unable to capture Screenshots .. "+e.getMessage());
+			System.out.println("Unable to save Screenshots .. "+e.getMessage());
 		}
 		
 		
@@ -40,7 +40,8 @@ public class Helper {
 		return format.format(Curr_date);
 	}
 	
-	public void handleAlerts() {
+	public void handleAlerts(WebDriver driver) {
+		
 		
 	}
 }

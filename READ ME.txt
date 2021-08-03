@@ -1,0 +1,14 @@
+This Project is for everyone who wants to learn basic TestNG framework.
+
+Build on Maven Platform. 
+POM.xml ---> has all the necessary information JARs need for basic project structure. 
+
+Properties Files for Storing Environment Details(URLs)/ Browser infomation/
+Data Sheet for Multiple Input
+
+Utilities like (I will be updating it with more features.)
+1. Browser Libraries
+2. Data Provider Reader
+3. Helper Class - contains (Handling Alerts, Screenshots, Generating Date ) 
+
+Generates Extent Report with Logger 
