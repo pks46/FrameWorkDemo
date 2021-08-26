@@ -1,36 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="13325" started-at="2021-07-31T08:10:22Z" finished-at="2021-07-31T08:10:35Z">
+  <suite started-at="2021-08-23T06:33:46Z" name="Default suite" finished-at="2021-08-23T06:34:05Z" duration-ms="19190">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="13325" started-at="2021-07-31T08:10:22Z" finished-at="2021-07-31T08:10:35Z">
+    <test started-at="2021-08-23T06:33:46Z" name="Default test" finished-at="2021-08-23T06:34:05Z" duration-ms="19190">
       <class name="com.TestCases.TC001_LoginFlipkart">
-        <test-method status="PASS" signature="DataSetup()[pri:0, instance:com.TestCases.TC001_LoginFlipkart@cd3fee8]" name="DataSetup" is-config="true" duration-ms="318" started-at="2021-07-31T08:10:22Z" finished-at="2021-07-31T08:10:22Z">
+        <test-method is-config="true" signature="DataSetup()[pri:0, instance:com.TestCases.TC001_LoginFlipkart@45d84a20]" started-at="2021-08-23T06:33:45Z" name="DataSetup" finished-at="2021-08-23T06:33:46Z" duration-ms="621" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- DataSetup -->
-        <test-method status="PASS" signature="Setup()[pri:0, instance:com.TestCases.TC001_LoginFlipkart@cd3fee8]" name="Setup" is-config="true" duration-ms="10242" started-at="2021-07-31T08:10:22Z" finished-at="2021-07-31T08:10:32Z">
+        <test-method is-config="true" signature="Setup()[pri:0, instance:com.TestCases.TC001_LoginFlipkart@45d84a20]" started-at="2021-08-23T06:33:46Z" name="Setup" finished-at="2021-08-23T06:34:02Z" duration-ms="16331" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Setup -->
-        <test-method status="PASS" signature="LoginApp()[pri:1, instance:com.TestCases.TC001_LoginFlipkart@cd3fee8]" name="LoginApp" duration-ms="912" started-at="2021-07-31T08:10:32Z" finished-at="2021-07-31T08:10:33Z">
+        <test-method signature="LoginApp()[pri:1, instance:com.TestCases.TC001_LoginFlipkart@45d84a20]" started-at="2021-08-23T06:34:02Z" name="LoginApp" finished-at="2021-08-23T06:34:03Z" duration-ms="948" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoginApp -->
-        <test-method status="PASS" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:com.TestCases.TC001_LoginFlipkart@cd3fee8]" name="tearDownMethod" is-config="true" duration-ms="1282" started-at="2021-07-31T08:10:33Z" finished-at="2021-07-31T08:10:35Z">
+        <test-method is-config="true" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:com.TestCases.TC001_LoginFlipkart@45d84a20]" started-at="2021-08-23T06:34:03Z" name="tearDownMethod" finished-at="2021-08-23T06:34:04Z" duration-ms="1485" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=LoginApp status=SUCCESS method=TC001_LoginFlipkart.LoginApp()[pri:1, instance:com.TestCases.TC001_LoginFlipkart@cd3fee8] output={null}]]]>
+                <![CDATA[[TestResult name=LoginApp status=SUCCESS method=TC001_LoginFlipkart.LoginApp()[pri:1, instance:com.TestCases.TC001_LoginFlipkart@45d84a20] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownMethod -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.TestCases.TC001_LoginFlipkart@cd3fee8]" name="tearDown" is-config="true" duration-ms="830" started-at="2021-07-31T08:10:35Z" finished-at="2021-07-31T08:10:35Z">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.TestCases.TC001_LoginFlipkart@45d84a20]" started-at="2021-08-23T06:34:04Z" name="tearDown" finished-at="2021-08-23T06:34:05Z" duration-ms="376" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
